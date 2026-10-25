@@ -127,43 +127,74 @@ CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다.
 
 ## 버전 이력
 
-### 2.7.20 공개베타
-
-- VV 측정 후 Enter에서 측정값 문자 삽입·기존 문자 수정을 선택합니다.
-- XY·FW 지시선형 표기를 문자와 연결된 MLEADER로 작성합니다.
-- CIM 문자 생성 순서와 PEL 설정 전달·반복 작성 및 CZ-NPLT 레이어를 보완했습니다.
-- DOE는 직선 구간으로 구성된 폴리선도 선택하며, 객체 전체 겹침 조건으로 삭제합니다. 곡선 구간은 제외하고 보존합니다.
-- 사용자 컴파일·빌드 9단계, 경고·오류 0개를 확인했습니다. 실제 CAD 동작은 사용자 확인 대상입니다.
-- [2.7.20 공개베타 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.7.20)
-
-### 2.7.19 공개베타
-
-- FW·FEL·RZV·XY·CEX·CIM·CALS·VFR·VTH·CBV·BOP·VV·PEL·DCP·DIVL·DDE·DOE의 도면·Excel 실행부를 기존 공용 CAD .NET 연결로 이전했습니다.
-- 기존 LISP 설정·입력·숫자 서식과 일부 CAD 기본 명령 호출을 유지합니다.
-- 기존 창 디자인·명령어·설정 저장·지반고 및 삼각망 계산을 유지합니다.
-- 소스·DLL 빌드와 모의 검사를 수행했으며, 실제 CAD 동작은 별도 확인 대상입니다.
-- [2.7.19 공개베타 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.7.19)
-
-### 2.7.14~2.7.18 공개베타
-
-- AutoCAD 2025 이후용 DLL과 제품·버전별 Runtime 구성을 추가했습니다.
-- 설정창의 화면 중앙 배치를 적용했습니다.
-- 레이어·문자·치수·종단·삼각망 등의 실행부를 단계적으로 공용 CAD .NET으로 이전했습니다.
-
-### 2.6.x~2.7.x 공개베타
-
-- CAD 표·Excel 표 변환과 도로 선형·종단 작성 기능을 추가했습니다.
-- 설정 저장·명령어 변경·모델리스 창과 TU 후 좌표 표기를 보완했습니다.
-- `Updater.exe`, `Uninstall.exe`, 사용자 명령어 이전 및 설치·복원 처리를 보완했습니다.
+정식 릴리스만 최신순으로 표시합니다.
 
 ### 2.0.0 정식버전
 
-- 저장소와 공용 설치 경로를 `DAWOO-Civil-LISP`로 전환했습니다.
-- AutoCAD·ZWCAD용 메뉴·도구막대·리본과 실행 파일을 함께 배포합니다.
-- 기존 등록 경로 전환과 2.x 백업 분리를 적용했습니다.
-- [2.0.0 정식 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.0.0)
+- 공용 설치 경로를 DAWOO-Civil-LISP로 전환하고 설치·자동 로드·리본·아이콘 및 백업 구성을 정리했습니다.
+- [2.0.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.0.0)
 
-전체 변경 이력은 [릴리스 목록](https://github.com/leecycle/DAWOO-Civil-LISP/releases)에서 확인할 수 있습니다.
+### 1.6.0 정식버전
+
+- 속성 도곽 Excel 작업을 DWCALS로 통합하고 SheetSet 필드·속성 판독·메뉴 호환성을 보완했습니다.
+- [1.6.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.6.0)
+
+### 1.5.0 정식버전
+
+- XY 좌표와 FW 표고의 지시선·문자 배치를 개선하고 PNG 아이콘과 설치 ZIP 구성을 정리했습니다.
+- [1.5.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.5.0)
+
+### 1.4.0 정식버전
+
+- CR·TER·VV 및 설치·업데이트 개선을 통합하고 기능 원본 LSP를 일반 배포본에서 제외했습니다.
+- [1.4.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.4.0)
+
+### 1.3.0 정식버전
+
+- 메뉴 항목 ID를 분리하고 PNG 아이콘·도구막대 표시 순서 및 시작 시 메뉴 보존을 개선했습니다.
+- [1.3.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.3.0)
+
+### 1.2.0 정식버전
+
+- 업데이트 채널·전체 백업 검증·실패 복원과 통합 설치, 메뉴·도움말 및 관리 아이콘을 정리했습니다.
+- [1.2.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.2.0)
+
+### 1.1.0 정식버전
+
+- AutoCAD·ZWCAD 통합 설치, 시작세트·신뢰 경로·메뉴 등록과 업데이트·도움말·롤백을 제공합니다.
+- [1.1.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.1.0)
+
+### 1.0.5 정식버전
+
+- 16×16·32×32 아이콘을 교체하고 명령별 기호·선 굵기·색상을 통일했습니다.
+- [1.0.5 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.0.5)
+
+### 1.0.4 정식버전
+
+- 설치 폴더 전체 백업·완전 교체·실패 자동 복원과 패키지 필수 파일 검증을 보완했습니다.
+- [1.0.4 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.0.4)
+
+### 1.0.3 정식버전
+
+- 검정 배경 도구막대 아이콘과 ZWCAD 메뉴·도구막대 재시도 처리를 개선했습니다.
+- [1.0.3 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.0.3)
+
+### 1.0.2 정식버전
+
+- 공통 도구막대·풀다운 메뉴·아이콘과 백업 버전 복원 기능을 추가했습니다.
+- [1.0.2 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.0.2)
+
+### 1.0.1 정식버전
+
+- 기존 항목을 보존하면서 신뢰 경로와 APPLOAD 시작세트를 자동 등록합니다.
+- [1.0.1 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.0.1)
+
+### 1.0.0 정식버전
+
+- AutoCAD·ZWCAD 통합 배포, DWC 명령 체계, 통합 설치와 자동 업데이트를 적용한 첫 정식 릴리스입니다.
+- [1.0.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v1.0.0)
+
+전체 릴리스와 공개베타 변경 사항은 [릴리스 목록](https://github.com/leecycle/DAWOO-Civil-LISP/releases)에서 확인할 수 있습니다.
 
 ## 주의 사항
 
