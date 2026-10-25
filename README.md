@@ -1,94 +1,165 @@
 # DawooCivilLISP
 
-## 설명
+DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 및 조회 작업을 빠르고 일관되게 처리하기 위한 통합 LISP·CAD .NET 도구 모음입니다. 하나의 배포 파일로 AutoCAD와 ZWCAD 2024를 함께 지원하며 설치, 자동 로드, 메뉴·도구막대·리본 등록, 업데이트 및 복원 기능을 제공합니다.
 
-DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 및 조회 작업을 빠르고 일관되게 처리하는 AutoLISP 도구 모음입니다. AutoCAD와 ZWCAD 2024를 하나의 배포 파일로 지원하며 설치, 자동 로드, 메뉴, 업데이트 및 복원 기능을 제공합니다.
+## 현재 버전
+
+- 정식버전: [DawooCivilLISP 2.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.0.0)
+- 공개베타: [DawooCivilLISP 2.7.19](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.7.19)
+- 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
 ## 지원 환경
 
-- AutoCAD 2015~2024 (Windows)
-- ZWCAD 2024 (Windows)
-- 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
-- LISP 원본 인코딩: ANSI(CP949)
+- AutoCAD 2021~2027 (Windows x64, 정규 AutoCAD; 제품·버전별 실기 검증 별도)
+- ZWCAD 2024 (Windows x64; 제품별 실기 검증 별도)
+- DLL 빌드 기준: AutoCAD 2021~2024 .NET Framework 4.8 / 2025~2026 .NET 8 / 2027 .NET 10 / ZWCAD 2024 .NET Framework 4.8
+- Excel 연동 기능은 Windows용 Microsoft Excel이 필요합니다.
 
 ## 주요 기능
 
-- 레이어, 치수, 문자 및 표고 편집
-- 중심선·수직선 작성과 선형 방향 변경
-- 면적, 좌표, 거리 및 누계 조회
-- Excel 좌표 가져오기·내보내기
-- AutoCAD용 VLX와 ZWCAD용 ZELX 자동 판별
-- 정식·시험 업데이트 채널, 전체 백업, 실패 시 자동 복원
-- 전체 기능 메뉴, 도구막대 및 PDF 도움말
-- 모든 DawooCivilLISP 명령 실행 시 첫 줄에 명령어와 기본 기능 설명 표시
-- 토목 작업 명령은 `DWXY`, `DWFW`, `DWVV`처럼 `DW` 접두어로 통일
+- 삼각망·도로 선형·종단·횡단 작성 및 표고 처리
+- 좌표 작성과 Excel 좌표 가져오기·내보내기
+- CAD 표와 Excel 표 변환 및 연결 데이터 업데이트
+- 레이어·문자·치수·객체 편집과 도면 정리
+- 면적·거리·누계 조회
+- 속성 도곽 일괄수정과 뷰포트 작업
+- AutoCAD와 ZWCAD 자동 판별 및 버전에 맞는 실행 파일 로드
+- 명령어 변경, 사용자 설정 저장, 모델리스 설정창
+- 프로그램 내 업데이트와 백업 버전 복원
+- PDF 도움말 및 DawooCivilLISP 메뉴 제공
 
 > 토목좌표 기본 단위는 도면거리 `1 = 1.00 m`입니다.
 
+### 주요 명령
+
+아래는 기본 실행명입니다. 실제 고정 명령어는 `DWC_` 접두어를 사용하며, `DWCOP`의 명령어 변경에서 실행명을 바꿀 수 있습니다.
+
+- `DWTIN` 삼각망 그리기
+- `DWDPL` 선형 작성
+- `DWGRP` 종단 추출
+- `DWDVL` 종단 작성
+- `DWFM` 횡단 추출
+- `DWFW` 표고 작성 / `DWFEL` 표고 찾기
+- `DWS3P` 선형 표기
+- `DWXY` 좌표 작성
+- `DWCEX` 좌표 Excel 보내기 / `DWCIM` 좌표 Excel 가져오기
+- `DWCTE` CAD 표 Excel로 / `DWETC` Excel 표 CAD로
+- `DWCLAY` 표준 레이어
+- `DWARE` 면적 계산 / `DWVV` 거리 측정
+- `DWTU` UCS·화면 방향 설정
+- `DWCALS` 속성 도곽 일괄수정
+
 ## 설치 방법
 
-1. [최신 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/latest)에서 `DawooCivilLISP.*.zip`을 내려받습니다.
+1. [릴리스 목록](https://github.com/leecycle/DAWOO-Civil-LISP/releases)에서 사용할 버전의 `DawooCivilLISP.*.zip`을 내려받습니다.
 2. ZIP을 완전히 압축 해제합니다.
-3. 압축을 푼 폴더에서 `Install.exe`를 실행합니다.
-4. 설치 완료 후 AutoCAD 또는 ZWCAD를 다시 시작합니다.
-5. `DWCOP`에서 버전 정보와 업데이트 채널을 확인합니다.
-6. `DWCHELP`를 실행하면 PDF 도움말이 열립니다.
+3. AutoCAD와 ZWCAD를 모두 종료합니다.
+4. 압축을 푼 폴더에서 `Install.exe`를 실행합니다.
+5. CAD를 다시 시작합니다.
+6. 명령창에서 `DWCOP`을 실행하고 버전정보에서 현재 CAD와 DawooCivilLISP 버전을 확인합니다.
+7. `DWCHELP`를 실행하면 PDF 도움말이 열립니다.
 
-설치 시 신뢰 경로와 APPLOAD 시작세트, 리본을 등록합니다. 2.0.1은 기존 시작세트의 구경로를 새 경로로 전환하고, ZWCAD 도구 메뉴를 DawooLISP 메뉴 바로 오른쪽에 배치합니다.
+배포 ZIP에는 `Install.exe`와 `README.txt`가 포함됩니다. 공개베타는 각 버전의 릴리스 페이지에서 받을 수 있습니다.
+
+### 설치 모드와 백업
+
+설치기는 기존 설치 상태를 확인해 신규 설치, 업데이트 또는 구버전 마이그레이션을 처리합니다.
+
+- 신규 설치: Civil의 신뢰 경로·시작하기 세트·PGP 명령 및 메뉴 등록을 처리합니다.
+- 업데이트: 기존 사용자 설정과 사용자 지정 명령어를 유지하면서 제품 파일을 교체합니다. 설치 폴더에서 직접 고친 제품 파일은 교체될 수 있습니다.
+- 1.x 마이그레이션: 기존 `C:\DAWOO\CivilLISP\DawooCivilLISP.lsp`를 감지하면 구버전 전용 백업을 만들고 새 설치 경로로 연결합니다.
+- `DAWOO` 프로파일이 있으면 유지합니다. 없으면 유효한 현재 프로파일을 복사해 만들고 적용하며, 실패 시 기존 상태를 복원합니다.
+
+백업은 서로 섞이지 않게 분리합니다.
+
+- 일반 업데이트: `%LOCALAPPDATA%\DAWOO\DAWOO-Civil-LISP\Backup\2.x`
+- 1.x 마이그레이션: `%LOCALAPPDATA%\DAWOO\DAWOO-Civil-LISP\Backup\Migration-1.x`
+
+구버전 폴더는 삭제하지 않습니다. DawooLISP와 다른 시작세트 항목은 유지합니다.
 
 ## AutoCAD와 ZWCAD를 함께 사용하는 경우
 
-- 두 CAD는 같은 `C:\DAWOO\DAWOO-Civil-LISP` 폴더를 사용합니다.
-- AutoCAD는 `DawooCivilLISP_*.vlx`, ZWCAD 2024는 `DawooCivilLISP_*.zelx`를 불러옵니다.
-- 메뉴 등록 상태는 제품별로 확인하며 없는 경우에만 복구합니다.
-- 한 번 설치하거나 업데이트하면 두 제품용 파일이 함께 교체됩니다.
+두 CAD는 같은 `C:\DAWOO\DAWOO-Civil-LISP` 설치 폴더를 사용합니다.
+
+- AutoCAD에서는 `DawooCivilLISP_*.vlx`를 자동으로 불러옵니다.
+- ZWCAD 2024에서는 `DawooCivilLISP_*.zelx`를 자동으로 불러옵니다.
+- 메뉴 등록 상태는 제품별로 확인합니다.
+- 한 번 설치하거나 업데이트하면 두 CAD용 파일이 함께 교체됩니다.
+- DLL은 다음 제품·버전별 Runtime 폴더에서 선택합니다.
+
+```text
+Runtime/
+├─ AutoCAD/
+│  ├─ 2021/   # AutoCAD 2021~2024
+│  ├─ 2025/   # AutoCAD 2025~2026
+│  └─ 2027/   # AutoCAD 2027
+└─ ZWCAD/
+   └─ 2024/
+```
 
 ## 업데이트
 
-1. `DWCOP`에서 정식 또는 시험 채널을 선택합니다. 기본값은 정식 채널입니다.
-2. `DWCUPDATE`를 실행합니다.
-3. 정식 채널은 일반 Release, 시험 채널은 Pre-release를 포함해 최신 버전을 확인합니다.
-4. 업데이트 승인 후 도면을 저장하고 AutoCAD와 ZWCAD를 종료합니다.
-5. 기존 설치 전체를 백업하고 새 패키지를 검증한 뒤 교체합니다.
-6. 실패하면 기존 설치 전체를 자동 복원합니다.
+`DWCOP`에서 정식버전 또는 공개베타 업데이트 채널을 선택하고 저장할 수 있습니다. 기존 사용자의 채널 선택값은 유지합니다.
 
-2.0.1 설치기는 기존 `C:\DAWOO\CivilLISP\DawooCivilLISP.lsp`를 감지하면 1.x 마이그레이션을 실행합니다. 구버전은 `%LOCALAPPDATA%\DAWOO\DAWOO-Civil-LISP\Backup\Migration-1.x`에 별도로 백업하고, 프로그램은 `C:\DAWOO\DAWOO-Civil-LISP`에 설치합니다. 기존 폴더는 삭제하지 않으며, 일반 2.x 롤백 백업과 1.x 마이그레이션 백업은 서로 분리됩니다.
+1. CAD 명령창에서 `DWCUPDATE`를 실행합니다.
+2. 설정한 채널에 따라 GitHub의 최신 정식 또는 공개베타 릴리스를 비교합니다.
+3. 업데이트를 승인한 뒤 도면을 저장합니다.
+4. AutoCAD와 ZWCAD를 모두 완전히 종료합니다.
+5. 기존 설치를 백업하고 새 패키지를 검증한 뒤 교체합니다.
+6. 실패하면 백업에서 복원을 시도합니다. 복원이 실패하면 안전 백업을 보존해 다시 복구할 수 있게 합니다.
+
+업데이트 실행 파일은 `Updater.exe`입니다. 기본 실행명이 변경된 명령은 이전 기본값과 일치할 때만 새 기본값으로 이전하며, 사용자가 따로 지정한 실행명은 유지합니다.
 
 ## 메뉴와 도움말
 
-- `DWCOP`: 설치·백업 폴더 열기, 버전·채널 확인, 다시 불러오기, 채널 설정
-- `DWCUPDATE`: 현재 채널의 최신 버전 확인 및 업데이트
-- `DWCROLLBACK`: 백업된 이전 버전으로 복원
-- `DWCTOOLBAR`: 도구막대 표시
-- `DWCTOOLBARRESET`: 메뉴와 도구막대 다시 등록
+- `DWCTOOLBAR`: DawooCivilLISP 도구막대 표시
+- `DWCTOOLBARRESET`: 메뉴·도구막대 다시 등록
 - `DWCHELP`: PDF 도움말 열기
+- `DWCUPDATE`: 최신 버전 확인 및 업데이트
+- `DWCROLLBACK`: 백업된 이전 버전으로 복원
+- `DWCOP`: 설치 폴더·백업·버전·재로드·업데이트 채널·명령어 설정
 
-전체 명령과 사용 방법은 설치 폴더의 `DawooCivilLISP_Help.pdf`를 참고하십시오.
+전체 명령과 사용 방법은 설치 폴더의 `DawooCivilLISP_Help.pdf`에서 확인할 수 있습니다.
 
-## 버전별 변경사항
+### 프로그램 삭제
 
-- 1.3.1: CR 문자 사각 중심 이동 명령 추가
-- 1.3.2: GUI 신규 설치와 전체 백업 적용
-- 1.3.3: AutoCAD PNG 아이콘 절대경로 연결
-- 1.3.4: 모든 사용자 명령의 첫 줄 기능 설명 추가
-- 1.3.5: TER·CR·VV 오류 수정
-- 1.3.6: 설치형 Updater EXE, CAD 종료 확인과 실패 자동 복원 적용
-- 1.4.0: 1.3.1~1.3.6 개선사항을 정식 적용하고 배포본에서 기능 원본 LSP 제외
-- 1.5.11: 토목 작업 명령을 DW 접두어 체계로 통일하고 ELRESET 명령 삭제
-- 1.6.0: 속성 도곽 Excel 통합, SheetSet 필드와 지번 정리 개선사항을 정식 적용
-- 1.6.1: DWMAPALI 지번 정리 기능을 DawooLISP로 이동하고 DawooCivilLISP에서 제거. 신규 설치·업데이트 성공 팝업은 제거하고 설치 완료 화면과 GitHub 페이지 열기는 유지
-- 1.6.5: 제품 정보를 `version.ini`로 통합하고 DWCALS·DWCEX·DWCIM 설정을 개선했으며, AutoCAD·ZWCAD용 DawooCivilLISP 리본 메뉴를 추가
+CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다. 사용자 설정·백업·사용자가 수정한 파일, `DAWOO` 프로파일과 DawooLISP는 보존하도록 처리합니다. 삭제 결과와 보존된 파일은 삭제 안내를 확인하십시오.
 
-- 1.6.6 공개베타: 선형중심·도곽수정만 큰 버튼으로 유지하고 나머지는 작은 3단 리본으로 정리. 보조선정렬 등 명칭 변경, 중복 치수 버튼 제거, 뷰포트 순서 정리 및 공통 베이스 아이콘 30종 적용
+## 버전 이력
 
-- 2.0.0 정식버전: 저장소 및 설치 폴더를 DAWOO-Civil-LISP로 전환하고 흰색 선·포인트 색상 아이콘 30종 적용. 기존 시작세트·리본·메뉴 경로 전환과 2.x 백업 분리
+### 2.7.19 공개베타
 
-- 2.0.1 공개베타: 1.x 설치 자동 감지·전용 백업·시작세트 및 업데이트 채널 이전을 추가. AutoCAD 자동 NETLOAD 명령 표시를 숨기고 ZWCAD 도구 메뉴를 DawooLISP 바로 오른쪽에 고정
+- FW·FEL·RZV·XY·CEX·CIM·CALS·VFR·VTH·CBV·BOP·VV·PEL·DCP·DIVL·DDE·DOE의 도면·Excel 실행부를 기존 공용 CAD .NET 연결로 이전했습니다.
+- 기존 LISP 설정·입력·숫자 서식과 일부 CAD 기본 명령 호출을 유지합니다.
+- 기존 창 디자인·명령어·설정 저장·지반고 및 삼각망 계산을 유지합니다.
+- 소스·DLL 빌드와 모의 검사를 수행했으며, 실제 CAD 동작은 별도 확인 대상입니다.
+- [2.7.19 공개베타 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.7.19)
+
+### 2.7.14~2.7.18 공개베타
+
+- AutoCAD 2025 이후용 DLL과 제품·버전별 Runtime 구성을 추가했습니다.
+- 설정창의 화면 중앙 배치를 적용했습니다.
+- 레이어·문자·치수·종단·삼각망 등의 실행부를 단계적으로 공용 CAD .NET으로 이전했습니다.
+
+### 2.6.x~2.7.x 공개베타
+
+- CAD 표·Excel 표 변환과 도로 선형·종단 작성 기능을 추가했습니다.
+- 설정 저장·명령어 변경·모델리스 창과 TU 후 좌표 표기를 보완했습니다.
+- `Updater.exe`, `Uninstall.exe`, 사용자 명령어 이전 및 설치·복원 처리를 보완했습니다.
+
+### 2.0.0 정식버전
+
+- 저장소와 공용 설치 경로를 `DAWOO-Civil-LISP`로 전환했습니다.
+- AutoCAD·ZWCAD용 메뉴·도구막대·리본과 실행 파일을 함께 배포합니다.
+- 기존 등록 경로 전환과 2.x 백업 분리를 적용했습니다.
+- [2.0.0 정식 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.0.0)
+
+전체 변경 이력은 [릴리스 목록](https://github.com/leecycle/DAWOO-Civil-LISP/releases)에서 확인할 수 있습니다.
 
 ## 주의 사항
 
-- 설치 또는 업데이트 중에는 AutoCAD와 ZWCAD를 모두 종료해야 합니다.
+- AutoCAD와 ZWCAD가 실행 중일 때 설치 파일을 강제로 교체하지 마십시오.
 - ZIP 내부에서 바로 실행하지 말고 반드시 완전히 압축 해제하십시오.
-- LISP 원본을 수정할 때는 ANSI(CP949) 인코딩을 유지하십시오.
-- 배포 ZIP에는 AutoCAD용 VLX와 ZWCAD용 ZELX가 모두 포함되어야 합니다.
+- LISP 원본은 ANSI(CP949) 인코딩을 유지합니다.
+- 설치 패키지에는 AutoCAD용 VLX와 ZWCAD용 ZELX가 모두 포함됩니다.
 - 문제가 생기면 CAD를 종료한 뒤 `DWCROLLBACK`을 사용하거나 배포본으로 다시 설치하십시오.
