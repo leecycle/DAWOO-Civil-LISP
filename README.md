@@ -5,7 +5,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 ## 현재 버전
 
 - 정식버전: [DawooCivilLISP 2.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.0.0)
-- 공개베타: [DawooCivilLISP 2.7.19](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.7.19)
+- 공개베타: [DawooCivilLISP 2.7.20](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.7.20)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
 ## 지원 환경
@@ -126,6 +126,15 @@ Runtime/
 CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다. 사용자 설정·백업·사용자가 수정한 파일, `DAWOO` 프로파일과 DawooLISP는 보존하도록 처리합니다. 삭제 결과와 보존된 파일은 삭제 안내를 확인하십시오.
 
 ## 버전 이력
+
+### 2.7.20 공개베타
+
+- VV 측정 후 Enter에서 측정값 문자 삽입·기존 문자 수정을 선택합니다.
+- XY·FW 지시선형 표기를 문자와 연결된 MLEADER로 작성합니다.
+- CIM 문자 생성 순서와 PEL 설정 전달·반복 작성 및 CZ-NPLT 레이어를 보완했습니다.
+- DOE는 직선 구간으로 구성된 폴리선도 선택하며, 객체 전체 겹침 조건으로 삭제합니다. 곡선 구간은 제외하고 보존합니다.
+- 사용자 컴파일·빌드 9단계, 경고·오류 0개를 확인했습니다. 실제 CAD 동작은 사용자 확인 대상입니다.
+- [2.7.20 공개베타 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.7.20)
 
 ### 2.7.19 공개베타
 
