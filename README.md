@@ -4,7 +4,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 ## 현재 버전
 
-- 정식버전: [DawooCivilLISP 2.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.0.0)
+- 정식버전: [DawooCivilLISP 3.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.0.0)
 - 공개베타: [DawooCivilLISP 2.8.4](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.8.4)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -128,6 +128,12 @@ CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다.
 ## 버전 이력
 
 정식 릴리스만 최신순으로 표시합니다.
+
+### 3.0.0 정식버전
+
+- 사용자 확인이 완료된 2.8.4를 기준으로 공용 CAD .NET 실행부·기존 LISP 연결과 CTE 제목 내보내기·SIP 보간·CEX/CIM 처리를 유지한 정식 릴리스입니다.
+- 기존 창 디자인·좌표값·지반고·보간 계산을 유지하며, 신규 설치 기본 업데이트 채널은 정식입니다. 기존 사용자 설정과 채널 선택은 유지합니다.
+- [3.0.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.0.0)
 
 ### 2.0.0 정식버전
 
