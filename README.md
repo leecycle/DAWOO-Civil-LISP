@@ -5,7 +5,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 ## 현재 버전
 
 - 정식버전: [DawooCivilLISP 3.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.0.0)
-- 공개베타: [DawooCivilLISP 3.1.4](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.1.4)
+- 공개베타: [DawooCivilLISP 3.1.5](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.1.5)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
 ## 지원 환경
