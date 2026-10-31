@@ -5,7 +5,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 ## 현재 버전
 
 - 정식버전: [DawooCivilLISP 3.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.0.0)
-- 공개베타: [DawooCivilLISP 2.8.4](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v2.8.4)
+- 공개베타: [DawooCivilLISP 3.1.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.1.0)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
 ## 지원 환경
@@ -18,7 +18,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 ## 주요 기능
 
 - 삼각망·도로 선형·종단·횡단 작성 및 표고 처리
-- 좌표 작성과 Excel 좌표 가져오기·내보내기
+- 좌표 작성·좌표 전개도와 Excel 좌표 가져오기·내보내기
 - CAD 표와 Excel 표 변환 및 연결 데이터 업데이트
 - 레이어·문자·치수·객체 편집과 도면 정리
 - 면적·거리·누계 조회
@@ -42,6 +42,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 - `DWFW` 표고 작성 / `DWFEL` 표고 찾기
 - `DWS3P` 선형 표기
 - `DWXY` 좌표 작성
+- `DWRHA` 좌표 전개도·평면 선형·IP 표·RTF 계산서
 - `DWCEX` 좌표 Excel 보내기 / `DWCIM` 좌표 Excel 가져오기
 - `DWCTE` CAD 표 Excel로 / `DWETC` Excel 표 CAD로
 - `DWCLAY` 표준 레이어
