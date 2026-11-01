@@ -4,7 +4,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 ## 현재 버전
 
-- 정식버전: [DawooCivilLISP 4.0.1](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.1)
+- 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 - 공개베타: [DawooCivilLISP 4.1.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.1.0)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -132,12 +132,6 @@ CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다.
 ## 버전 이력
 
 정식 릴리스만 최신순으로 표시합니다.
-
-### 4.0.1 정식버전
-
-- XY에서 Z값 표시를 끄면 X는 수평선 위, Y는 아래에 놓고 두 문자의 실제 폭에 맞춰 지시선 길이를 정합니다.
-- Z값 표시 배치·TU·좌표값·소수자리·표준 레이어·연결 폴리선·개별 문자 편집·창 디자인·Undo는 유지합니다. 도움말에 변경 안내를 추가했습니다.
-- [4.0.1 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.1)
 
 ### 4.0.0 정식버전
 
