@@ -4,7 +4,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 ## 현재 버전
 
-- 정식버전: [DawooCivilLISP 3.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.0.0)
+- 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 - 공개베타: [DawooCivilLISP 3.2.4](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.2.4)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -130,6 +130,13 @@ CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다.
 ## 버전 이력
 
 정식 릴리스만 최신순으로 표시합니다.
+
+### 4.0.0 정식버전
+
+- 3.2.4를 기준으로 공용 CAD .NET 실행부와 기존 창·명령·좌표값·지반고·보간 계산·레이어·Undo를 유지한 정식 릴리스입니다. 좌표 전개도·횡단경계와 후속 안정성 보완을 포함합니다.
+- 신규 설치 기본 업데이트 채널은 Stable이며 기존 저장 채널·사용자 설정·명령 별칭은 유지합니다. 통합 도움말에 정식 안내를 추가하고 기존 본문을 보존했습니다.
+- DPL·DVL 정상 출력·보호 셀 사전검증·도면 완료 안내·Undo는 3.2.4에서 사용자 확인됐습니다. 쓰기 도중 Excel 부분 반영 안내는 실제 오류가 없어 미확인이며, 모의 검사 결과와 구분합니다.
+- [4.0.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
 ### 3.0.0 정식버전
 
