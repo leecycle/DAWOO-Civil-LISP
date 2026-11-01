@@ -5,7 +5,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 ## 현재 버전
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
-- 공개베타: [DawooCivilLISP 4.1.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.1.0)
+- 공개베타: [DawooCivilLISP 4.1.2](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.1.2)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
 ## 지원 환경
@@ -51,7 +51,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 - `DWTU` UCS·화면 방향 설정
 - `DWCALS` 속성 도곽 일괄수정
 
-공개베타 4.1.0에는 원 분할 명령 DWC_DIVC(기본 DWDIVC)가 추가되었습니다.
+공개베타 4.1.2는 4.0.1 기준으로 원 분할 명령 DWC_DIVC(기본 DWDIVC)의 기존 LISP 연결을 재작성했습니다. 컴파일·빌드 완료를 확인했으며 설치 후 시작 오류 해소 여부는 사용자 확인 대기입니다.
 
 ## 설치 방법
 
