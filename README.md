@@ -5,7 +5,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 ## 현재 버전
 
 - 정식버전: [DawooCivilLISP 3.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.0.0)
-- 공개베타: [DawooCivilLISP 3.1.9](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.1.9)
+- 공개베타: [DawooCivilLISP 3.2.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.2.0)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
 ## 지원 환경
@@ -39,6 +39,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 - `DWGRP` 종단 추출
 - `DWDVL` 종단 작성
 - `DWFM` 횡단 추출
+- `DWCSW` 횡단경계
 - `DWFW` 표고 작성 / `DWFEL` 표고 찾기
 - `DWS3P` 선형 표기
 - `DWXY` 좌표 작성
