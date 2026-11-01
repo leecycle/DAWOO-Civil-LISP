@@ -4,8 +4,8 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 ## 현재 버전
 
-- 정식버전: [DawooCivilLISP 4.1.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.1.0)
-- 공개베타: [DawooCivilLISP 3.2.4](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v3.2.4)
+- 정식버전: [DawooCivilLISP 4.0.1](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.1)
+- 공개베타: [DawooCivilLISP 4.1.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.1.0)
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
 ## 지원 환경
@@ -49,8 +49,9 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 - `DWCLAY` 표준 레이어
 - `DWARE` 면적 계산 / `DWVV` 거리 측정
 - `DWTU` UCS·화면 방향 설정
-- `DWDIVC` 원 분할
 - `DWCALS` 속성 도곽 일괄수정
+
+공개베타 4.1.0에는 원 분할 명령 DWC_DIVC(기본 DWDIVC)가 추가되었습니다.
 
 ## 설치 방법
 
@@ -131,13 +132,6 @@ CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다.
 ## 버전 이력
 
 정식 릴리스만 최신순으로 표시합니다.
-
-### 4.1.0 정식버전
-
-- 원·호·2D 폴리선의 호를 간격 또는 등분 개수로 분할하는 DWC_DIVC(기본 DWDIVC)를 추가했습니다. 직선 구간은 유지하여 하나의 폴리선으로 만듭니다.
-- 중심-분할점 선·원본 삭제 옵션과 기존 설정 저장·백업을 지원합니다. 메뉴·도구막대·리본에 원 분할과 제공 아이콘을 추가하고 통합 도움말에 사용법을 반영했습니다.
-- 기존 창·명령 동작·좌표값·지반고·보간 계산을 유지합니다.
-- [4.1.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.1.0)
 
 ### 4.0.1 정식버전
 
