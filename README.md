@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.6](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.6)
+- 공개베타: [DawooCivilLISP 4.2.7](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.7)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.6은 QCAR 인출선 번호 문자의 정렬점 지정 순서를 수정하고, 출력 스케일과 1:1000 기준 기본문자높이로 적용문자높이를 자동 계산합니다. TU 회전 후에도 인출선은 화면 수직으로 작성하며 중심선의 지정 거리 위치에 원을 배치합니다. 기존 창의 글자·입력칸 크기와 계산·좌표·설정 유지 방식은 보존했습니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 CAD 인출선과 Undo는 설치 후 확인이 필요합니다.
+공개베타 4.2.7은 QCAR 인출선을 같은 행정구역·지번의 합산 편입영역 중앙에 배치하고 원 내부 선을 제거합니다. 원 위치를 직접 지정하면 꺾인 선으로 연결하며 같은 묶음의 기존 인출선을 교체해 중복을 막습니다. Excel 하단 문구는 마지막 열에 병합 없이 오른쪽 정렬합니다. 기존 계산·번호·좌표·설정 유지 방식을 보존하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 배치·Excel 표시·Undo는 설치 후 확인이 필요합니다.
 
 
 
