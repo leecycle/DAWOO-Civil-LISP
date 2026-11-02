@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.8](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.8)
+- 공개베타: [DawooCivilLISP 4.2.9](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.9)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.8은 떨어진 같은 행정구역·지번의 각 편입영역을 같은 번호 원에 연결합니다. 설치·업데이트 신뢰 경로는 Civil 설치 폴더와 버전별 Runtime만 추가하고, 붙은 경로와 한글 경로 중복 판독을 보완했습니다. AutoCAD의 정확한 이전 ZDream 항목만 정리하며 ZWCAD의 ZDream과 정상 사용자·다른 프로그램 경로는 보존합니다. 기존 창·계산·좌표·설정 유지 방식은 보존했고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 배치·신뢰 경로·Undo는 설치 후 확인이 필요합니다.
+공개베타 4.2.9는 QCAR의 행정구역·지번·지목·비고 셀 더블클릭을 편집으로 연결하고 Enter 확정 시 확대가 실행되지 않도록 했습니다. ETC는 TU 후 문자가 표 테두리와 같은 UCS 방향을 따르도록 보완했습니다. 기존 창·좌표·계산·신뢰 경로·설정 유지 방식을 보존하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 셀 편집·ETC 표시·Undo는 설치 후 확인이 필요합니다.
 
 
 
