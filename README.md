@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.7](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.7)
+- 공개베타: [DawooCivilLISP 4.2.8](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.8)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.7은 QCAR 인출선을 같은 행정구역·지번의 합산 편입영역 중앙에 배치하고 원 내부 선을 제거합니다. 원 위치를 직접 지정하면 꺾인 선으로 연결하며 같은 묶음의 기존 인출선을 교체해 중복을 막습니다. Excel 하단 문구는 마지막 열에 병합 없이 오른쪽 정렬합니다. 기존 계산·번호·좌표·설정 유지 방식을 보존하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 배치·Excel 표시·Undo는 설치 후 확인이 필요합니다.
+공개베타 4.2.8은 떨어진 같은 행정구역·지번의 각 편입영역을 같은 번호 원에 연결합니다. 설치·업데이트 신뢰 경로는 Civil 설치 폴더와 버전별 Runtime만 추가하고, 붙은 경로와 한글 경로 중복 판독을 보완했습니다. AutoCAD의 정확한 이전 ZDream 항목만 정리하며 ZWCAD의 ZDream과 정상 사용자·다른 프로그램 경로는 보존합니다. 기존 창·계산·좌표·설정 유지 방식은 보존했고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 배치·신뢰 경로·Undo는 설치 후 확인이 필요합니다.
 
 
 
