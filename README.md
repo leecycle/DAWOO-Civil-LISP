@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.2](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.2)
+- 공개베타: [DawooCivilLISP 4.2.3](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.3)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.2는 용지도 작성의 호 안내 확인 후 원 분할로 전환하고 종료 후 기존 설정으로 돌아오도록 보완했습니다. 비폴리선 자동 검색을 구분하고 검색 레이어 4개는 선택한 객체의 레이어를 기존 목록에 추가합니다. 기존 창·계산·신뢰 경로 처리는 유지하며 사용자 컴파일·빌드 검수를 완료했습니다. 실제 CAD 창 전환·산출·Undo는 설치 후 확인이 필요합니다.
+공개베타 4.2.3은 QCAR의 Excel 기능을 ‘엑셀로 보내기’로 변경했습니다. Excel을 자동 실행하고 시작 셀 하나를 선택하면 산출 목록 8개 열을 기록하며 기존 표나 머리글은 필요하지 않습니다. 기존 창·계산·원 분할 복귀·레이어 추가·신뢰 경로 처리는 유지했습니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 Excel 기록은 설치 후 확인이 필요합니다.
 
 
 
