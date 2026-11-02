@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.4](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.4)
+- 공개베타: [DawooCivilLISP 4.2.5](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.5)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.4는 QCAR Excel 출력에 토지조서 제목·병합 머리글·10열·합계를 적용했습니다. 없는 대장면적·소유자 정보는 빈칸으로 둡니다. DWARE는 설정창 없이 바로 시작하고 S로 현재 산출을 마친 뒤 전체 설정창을 엽니다. 기존 창·계산·좌표·신뢰 경로는 유지했으며 사용자 컴파일·빌드 검수를 완료했습니다. 실제 Excel 양식과 ARE 전환·Undo는 설치 후 확인이 필요합니다.
+공개베타 4.2.5는 QCAR 필지 속성의 리·동까지 포함된 주소를 자동 입력하고 Excel 토지조서 우측 하단에 지적측량·출처 안내 세 줄을 출력합니다. 속성이 없으면 기존 값이나 빈칸을 유지하며 직접 수정한 주소를 보존합니다. 기존 창·계산·좌표·설정 유지 방식은 변경하지 않았고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 주소 속성과 Excel 출력은 설치 후 확인이 필요합니다.
 
 
 
