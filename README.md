@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.0)
+- 공개베타: [DawooCivilLISP 4.2.1](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.1)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.0은 용지도 작성 DWC_QCAR(기본 DWQCAR)를 추가했습니다. 같은 행정구역·지번의 편입면적을 합산하며, 기존 토지조서의 편입면적만 채웁니다. 기존 창·명령 동작과 계산은 유지하며 통합 도움말도 갱신했습니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 CAD 동작은 설치 후 확인이 필요합니다.
+공개베타 4.2.1은 설치·업데이트 시 CAD 버전에 필요한 Civil Runtime 신뢰 경로만 등록하고 불필요한 Civil 경로를 정리합니다. 사용자 추가 경로와 다른 프로그램 경로, 기존 창·명령 동작·계산은 유지합니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 설치 후 신뢰 경로는 사용자 확인이 필요합니다.
 
 
 
