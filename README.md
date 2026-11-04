@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.13](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.13)
+- 공개베타: [DawooCivilLISP 4.2.14](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.14)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.13은 ETC에서 Excel 읽기 후 연결을 정리하고 CAD 표를 작성하도록 보완했습니다. 임시 연결 버퍼 해제와 반복 조회 감소를 적용하고 업데이트 적용의 새 설정·초기화 기본값을 해제로 변경했습니다. 기존 저장 체크 상태·창 디자인·서식·좌표·계산은 유지하며 사용자 컴파일·빌드 검수를 완료했습니다. 실제 멈춤 해소와 성능 개선 여부는 설치 후 확인이 필요합니다.
+공개베타 4.2.14는 ETC 표 작성 후 전체 재생성을 화면 갱신으로 바꾸고 중복 속성 설정·출력 공간 조회를 줄였습니다. 행별 동일 서식을 재사용하며 CTE의 TU 후 Excel 문자 회전 판정도 보완했습니다. 기존 창·서식·좌표·계산·설정 유지 방식은 보존하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 작성 속도·표시·TU 내보내기 방향·Undo는 설치 후 확인이 필요합니다.
 
 
 
