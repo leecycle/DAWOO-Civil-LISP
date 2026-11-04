@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.9](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.9)
+- 공개베타: [DawooCivilLISP 4.2.10](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.10)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.9는 QCAR의 행정구역·지번·지목·비고 셀 더블클릭을 편집으로 연결하고 Enter 확정 시 확대가 실행되지 않도록 했습니다. ETC는 TU 후 문자가 표 테두리와 같은 UCS 방향을 따르도록 보완했습니다. 기존 창·좌표·계산·신뢰 경로·설정 유지 방식을 보존하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 셀 편집·ETC 표시·Undo는 설치 후 확인이 필요합니다.
+공개베타 4.2.10은 QCAR 직접 등록에서 기존 필지의 행정구역·지번·지목을 가져오고, 산출선 삭제·Undo 후 열린 목록을 자동 갱신합니다. Excel 대장면적 칸에는 도면 면적을 출력합니다. 기존 창·좌표·계산·설정 유지 방식은 보존했으며 사용자 컴파일·빌드 검수를 완료했습니다. 실제 CAD 삭제·Undo·필지 선택·Excel 출력은 설치 후 확인이 필요합니다.
 
 
 
