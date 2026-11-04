@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.17](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.17)
+- 공개베타: [DawooCivilLISP 4.2.18](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.18)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.17은 지정 설정의 환경값 498개와 저장 변수 194개를 공통 기본값으로 반영했습니다. 미저장 항목과 환경설정의 명령별 초기화에 적용하며 기존 저장값·명령어·업데이트 채널·창·계산·Undo는 유지합니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 CAD 초기화·저장·재실행 확인이 필요합니다.
+공개베타 4.2.18은 QCAR·RHA·CTE·ETC·DPL·DVL의 200% 배율 표시를 보완했습니다. 라벨의 입력칸 가림, 표 머리글·탭·하단 배치를 수정하고 기존 글자 크기·기능·설정·계산·레이어·Undo는 유지했습니다. 사용자 빌드와 숨김 DPI 검수를 완료했으며 실제 CAD 200% 표시·명령 동작 확인이 필요합니다.
 
 
 
