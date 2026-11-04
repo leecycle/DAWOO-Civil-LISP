@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.14](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.14)
+- 공개베타: [DawooCivilLISP 4.2.15](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.15)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.14는 ETC 표 작성 후 전체 재생성을 화면 갱신으로 바꾸고 중복 속성 설정·출력 공간 조회를 줄였습니다. 행별 동일 서식을 재사용하며 CTE의 TU 후 Excel 문자 회전 판정도 보완했습니다. 기존 창·서식·좌표·계산·설정 유지 방식은 보존하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 작성 속도·표시·TU 내보내기 방향·Undo는 설치 후 확인이 필요합니다.
+공개베타 4.2.15는 QCAR 인출선에 주석축척 적용을 기본으로 추가했습니다. 1000=1배 기준이며 주석축척 1:300과 직접 입력 300은 같은 0.3배로 적용합니다. 자동 모드 옆 숫자칸을 숨기고 직접 입력값·선택 방식의 저장·백업을 연결했습니다. 기존 창 글자 크기·계산·인출선 경로·레이어·Undo는 보존하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 CAD 축척·표시·Undo는 설치 후 확인이 필요합니다.
 
 
 
