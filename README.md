@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.19](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.19)
+- 공개베타: [DawooCivilLISP 4.2.20](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.20)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.19는 설정창을 열어 둔 상태의 CAD 입력 복귀와 설정창 포커스 한정 Esc 닫기를 보완했습니다. 진행 중인 CAD 명령·외부 리습에는 간섭하지 않으며 CAD 화면의 Esc는 기존 명령 취소로 유지합니다. 기존 창·설정·좌표·지반고·보간 계산·레이어·Undo는 유지하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 CAD 입력 전환과 Esc 동작은 설치 후 확인이 필요합니다.
+공개베타 4.2.20은 QCAR 자동 갱신·산출 검색, FM 삼각면, S3P 횡단 인식, DOE 겹침 삭제와 DIVL 분할의 중복 작업을 줄였습니다. 기존 계산식과 판정 순서·창·설정·좌표·지반고·보간·레이어·Undo 및 4.2.19 입력 복귀·Esc 처리는 유지합니다. 사용자 컴파일·빌드 검수와 기존 결과 비교를 완료했으며 실제 CAD 속도와 명령 결과는 설치 후 확인이 필요합니다.
 
 
 
