@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.21](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.21)
+- 공개베타: [DawooCivilLISP 4.2.22](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.22)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.21은 DIVC·QCAR 첫 설정창에서 Enter로 확인·편입 면적 산출을 실행하도록 초기 입력을 유지하고, QCAR 주석축척 1:1과 1:1000을 모두 1배로 처리합니다. 1:300은 0.3배이며 직접 입력은 기존 1000=1배를 유지합니다. 기존 창·결과표 Enter 편집·설정·계산·좌표·레이어·Undo와 성능 보완은 유지하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 CAD Enter 동작과 문자 높이는 설치 후 확인이 필요합니다.
+공개베타 4.2.22는 실제 창 종료와 내부 세션 정리를 연동하고 이전 창의 지연 요청이 새 창에 영향을 주지 않도록 보완했습니다. Undo 준비 실패·저장 오류·후속 정리 오류에서도 정리를 이어가며 정상 실행·도면 선택 중인 창은 보호합니다. 기존 창 디자인·설정 저장·계산·좌표·레이어·Undo는 유지하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 CAD 종료·재실행·선택 보호는 설치 후 확인이 필요합니다.
 
 
 
