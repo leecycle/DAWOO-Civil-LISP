@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.23](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.23)
+- 공개베타: [DawooCivilLISP 4.2.24](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.24)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.23은 횡단 추출의 진행 방향 확인에서 Enter를 Y로 처리하고, 지적선 하나를 선택하면 같은 공간·같은 레이어의 선과 폴리선을 검색해 횡단 지반선 범위 안의 모든 교점에 용지경계를 표시합니다. 중복 위치는 한 번만 표시하며 기존 다중 경계 선택·경계 EL·창 디자인·설정·좌표·지반고 계산·레이어·Undo는 유지합니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 CAD 입력·선택·출력은 설치 후 확인이 필요합니다.
+공개베타 4.2.24는 횡단 추출의 단일·다중 구역 경계 선택을 선택한 공간·레이어 검색으로 통일하고, 직선 폴리선은 기존 QCAR 정점 읽기 방식을 재사용합니다. 원호는 기존 샘플링을 유지하며 읽기 실패 시 레이어·객체 번호·형식·오류를 안내하고 중단합니다. 모든 교점 표기·Enter 기본값 Y·기존 창·설정·좌표·지반고 계산·레이어·Undo는 유지합니다. 사용자 컴파일·빌드 검수를 완료했으며 원래 오류 객체의 실제 CAD 선택·출력은 설치 후 확인이 필요합니다.
 
 
 
