@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.22](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.22)
+- 공개베타: [DawooCivilLISP 4.2.23](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.23)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.22는 실제 창 종료와 내부 세션 정리를 연동하고 이전 창의 지연 요청이 새 창에 영향을 주지 않도록 보완했습니다. Undo 준비 실패·저장 오류·후속 정리 오류에서도 정리를 이어가며 정상 실행·도면 선택 중인 창은 보호합니다. 기존 창 디자인·설정 저장·계산·좌표·레이어·Undo는 유지하고 사용자 컴파일·빌드 검수를 완료했습니다. 실제 CAD 종료·재실행·선택 보호는 설치 후 확인이 필요합니다.
+공개베타 4.2.23은 횡단 추출의 진행 방향 확인에서 Enter를 Y로 처리하고, 지적선 하나를 선택하면 같은 공간·같은 레이어의 선과 폴리선을 검색해 횡단 지반선 범위 안의 모든 교점에 용지경계를 표시합니다. 중복 위치는 한 번만 표시하며 기존 다중 경계 선택·경계 EL·창 디자인·설정·좌표·지반고 계산·레이어·Undo는 유지합니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 CAD 입력·선택·출력은 설치 후 확인이 필요합니다.
 
 
 
