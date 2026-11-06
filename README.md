@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.26](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.26)
+- 공개베타: [DawooCivilLISP 4.2.27](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.27)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.26은 QCAR 인출선 시작점을 편입영역 내부에서 경계 여유가 큰 위치를 우선하도록 보완했습니다. 내부 빈 영역을 제외하며 떨어진 편입영역은 각각 같은 번호 원으로 연결합니다. 연산 한도가 있는 근사 탐색을 사용하고 기존 면적·번호·원 위치·연결 방식·설정·창·좌표·레이어·Undo는 유지합니다. 기존 결과도 인출선을 다시 그리면 적용됩니다. 사용자 컴파일·빌드 검수를 완료했으며 실제 CAD 출력은 설치 후 확인이 필요합니다.
+공개베타 4.2.27은 기본 빠른 빌드와 별도 전체 검증 빌드를 제공합니다. 필수 검사는 유지하며 검토된 입력이 변경되면 전체 검증으로 전환합니다. 기존 명령·창·계산은 유지합니다. 사용자 빌드는 경고·오류 없이 148초에 완료됐으며 실제 CAD 확인은 설치 후 필요합니다.
 
 
 
