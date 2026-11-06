@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.28](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.28)
+- 공개베타: [DawooCivilLISP 4.2.29](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.29)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -106,7 +106,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.2.28은 GRP·CEX·CIM·CALS·ABD 하단 버튼을 정리하고 FM 용지경계·구역경계를 각각 지정한 레이어의 모든 교점에 표시합니다. 체크박스 변경 시 창을 유지하며 기존 글자 크기·계산·좌표·레이어·Undo는 보존합니다. 새 경계 레이어는 최초 지정해야 합니다. 사용자 빌드는 경고·오류 없이 174.7초에 완료됐으며 실제 CAD 출력·200% 표시는 설치 후 확인이 필요합니다.
+공개베타 4.2.29는 CIM 확장 기능 설정창이 열리지 않던 문제를 보완했습니다. 현재 실행 세션의 요청만 후속 설정창으로 전환하고 새 식별자로 이전 완료 신호를 차단합니다. 기존 창·설정·계산·좌표·레이어·Undo는 유지합니다. 최종 사용자 빌드는 경고·오류 없이 74.7초에 완료됐으며 실제 CAD 창 전환은 설치 후 확인이 필요합니다.
 
 
 
