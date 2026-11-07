@@ -10,9 +10,9 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-- 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
+- 최신 정식버전 · [DawooCivilLISP 5.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v5.0.0) · [설치 ZIP](https://github.com/leecycle/DAWOO-Civil-LISP/releases/download/v5.0.0/DawooCivilLISP.5.0.0.zip)
 
-- 공개베타: [DawooCivilLISP 4.3.1](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.3.1)
+- 직전 공개베타 · [DawooCivilLISP 4.3.3](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.3.3)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -108,7 +108,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 
 
-공개베타 4.3.1은 RZV의 폴리선 정점별 Z값 표기와 Point 레이어를 적용하고, POT 아이콘과 명령 실행 중 Esc 취소 처리를 보완했습니다.
+`DWXY`는 첫 점을 찍으면 좌표 문자와 지시선을 미리 보여 주고 배치점을 클릭하면 확정합니다. 리본과 도구막대의 툴팁은 `DWTIN : 삼각망 그리기`처럼 표시하며, 창 제목에는 기능 이름만 표시합니다.
 
 
 
@@ -212,7 +212,7 @@ Runtime/
 
 
 
-`DWCOP`에서 정식버전 또는 공개베타 업데이트 채널을 선택하고 저장할 수 있습니다. 기존 사용자의 채널 선택값은 유지합니다.
+`DWCOP`에서 정식버전 또는 공개베타 업데이트 채널을 선택하고 저장할 수 있습니다. 새 설치의 기본 채널은 정식버전이며, 기존 사용자의 채널 선택값은 유지합니다.
 
 
 
@@ -269,6 +269,16 @@ CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다.
 
 
 정식 릴리스만 최신순으로 표시합니다.
+
+
+
+### 5.0.0 정식버전
+
+- 4.3.3 공개베타를 기반으로 정식 배포했습니다. DWXY 배치 미리보기와 리본·도구막대 툴팁 정리를 포함합니다.
+
+- 새 설치의 기본 업데이트 채널은 정식버전입니다. 기존에 저장한 채널·설정·명령 별칭을 계속 사용합니다.
+
+- [5.0.0 릴리스](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v5.0.0)
 
 
 
