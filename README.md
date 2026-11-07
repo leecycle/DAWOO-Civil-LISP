@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 정식버전: [DawooCivilLISP 4.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.0.0)
 
-- 공개베타: [DawooCivilLISP 4.2.30](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.2.30)
+- 공개베타: [DawooCivilLISP 4.3.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.3.0)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -102,11 +102,13 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - `DWTU` UCS·화면 방향 설정
 
+- `DWPOT` 현황 3D 폴리선 Offset
+
 - `DWCALS` 속성 도곽 일괄수정
 
 
 
-공개베타 4.2.30은 FM 경계 레이어·구역경계 체크와 QCAR 원 위치 지정의 저장 및 설정 내보내기·가져오기 연결을 보완했습니다. 빠른·전체 빌드에 설정 키 자동 대조를 추가하고 반복 빌드의 이전 설치기를 삭제 목록에서 제외합니다. 기존 창·계산·좌표·Undo는 유지합니다. 사용자 전체 검증 빌드는 경고·오류 없이 완료됐으며 실제 CAD 저장·복원은 설치 후 확인이 필요합니다.
+공개베타 4.3.0은 현황 3D 폴리선 Offset DWC_POT(기본 DWPOT)을 수정 메뉴에 추가했습니다. 수평·수직 Offset, 상대·절대·문자 선택 Z값과 정점의 점 생성을 지원합니다. 원본과 기존 창·계산·좌표·레이어·Undo 방식을 유지합니다. 사용자 빠른 빌드는 경고·오류 없이 완료됐으며 실제 CAD 동작은 설치 후 확인이 필요합니다.
 
 
 
