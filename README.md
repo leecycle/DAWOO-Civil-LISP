@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 최신 정식버전 · [DawooCivilLISP 5.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v5.0.0) · [설치 ZIP](https://github.com/leecycle/DAWOO-Civil-LISP/releases/download/v5.0.0/DawooCivilLISP.5.0.0.zip)
 
-- 직전 공개베타 · [DawooCivilLISP 4.3.3](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v4.3.3)
+- 최신 공개베타 · [DawooCivilLISP 5.0.1](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v5.0.1) · [설치 ZIP](https://github.com/leecycle/DAWOO-Civil-LISP/releases/download/v5.0.1/DawooCivilLISP.5.0.1.zip)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -233,6 +233,10 @@ Runtime/
 업데이트 실행 파일은 `Updater.exe`입니다. 기본 실행명이 변경된 명령은 이전 기본값과 일치할 때만 새 기본값으로 이전하며, 사용자가 따로 지정한 실행명은 유지합니다.
 
 
+
+## 아이콘 원본과 빌드
+
+5.0.1부터 마스터 ZIP의 아이콘 원본은 `RibbonPlugin/IconSource` 한 곳에서 관리합니다. `BUILD_INSTALL_EXE.cmd`를 실행하면 설치용 아이콘 17개를 `Package/Icons`로 자동 복사하고 원본과 해시를 대조합니다. 설치 경로와 리본·도구막대의 표시 방식은 5.0.0과 같습니다.
 
 ## 메뉴와 도움말
 
