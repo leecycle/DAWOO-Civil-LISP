@@ -12,7 +12,7 @@ DawooCivilLISP는 토목·CAD 실무에서 반복되는 도면 작성, 편집 �
 
 - 최신 정식버전 · [DawooCivilLISP 5.0.0](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v5.0.0) · [설치 ZIP](https://github.com/leecycle/DAWOO-Civil-LISP/releases/download/v5.0.0/DawooCivilLISP.5.0.0.zip)
 
-- 최신 공개베타 · [DawooCivilLISP 5.0.1](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v5.0.1) · [설치 ZIP](https://github.com/leecycle/DAWOO-Civil-LISP/releases/download/v5.0.1/DawooCivilLISP.5.0.1.zip)
+- 최신 공개베타 · [DawooCivilLISP 5.0.2](https://github.com/leecycle/DAWOO-Civil-LISP/releases/tag/v5.0.2) · [설치 ZIP](https://github.com/leecycle/DAWOO-Civil-LISP/releases/download/v5.0.2/DawooCivilLISP.5.0.2.zip)
 
 - 공용 설치 폴더: `C:\DAWOO\DAWOO-Civil-LISP`
 
@@ -265,6 +265,8 @@ Runtime/
 
 
 CAD를 모두 종료한 뒤 설치 폴더의 `Uninstall.exe`로 삭제합니다. 사용자 설정·백업·사용자가 수정한 파일, `DAWOO` 프로파일과 DawooLISP는 보존하도록 처리합니다. 삭제 결과와 보존된 파일은 삭제 안내를 확인하십시오.
+
+5.0.2부터 삭제기는 ZWCAD 사용자 메뉴 설정 파일(`ZWCAD.CUIX`)을 삭제 백업 폴더에 저장한 뒤, DawooCivilLISP 부분 메뉴 등록만 제거합니다. DawooLISP와 다른 메뉴는 보존합니다. 백업 파일의 원래 경로는 삭제 백업 폴더의 `files.txt`에서 확인할 수 있습니다.
 
 
 
